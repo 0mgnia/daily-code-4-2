@@ -1,0 +1,13 @@
+#include<iostream>
+#include <windows.h>
+using namespace std;
+
+int main() {
+	int yanira;
+	cout << "enter a number:" << endl;
+	cin >> yanira;
+	for (int i = 0; i < yanira; i++)
+		Beep(100+i*30, 500);
+
+
+}
