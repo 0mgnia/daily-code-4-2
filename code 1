@@ -1,0 +1,18 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+
+int main(){
+
+int note;
+cout << "type 1 for a low note, type 2 for a medium note and 3 for a high note." << endl;
+cin >> note;
+if (note == 1)
+	Beep(75, 500);
+else if (note == 2)
+	Beep(100, 500);
+else if (note == 3)
+	Beep(500, 500);
+else
+cout << "not an option";
+}
